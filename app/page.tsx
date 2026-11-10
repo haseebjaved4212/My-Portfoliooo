@@ -24,7 +24,7 @@ export default function HomePage(): React.ReactElement {
       <div
         className={cn(
           homePageStyles.backgroundGrid.wrapper,
-          homePageStyles.backgroundGrid.pattern
+          homePageStyles.backgroundGrid.pattern,
         )}
       />
       <Spotlight className={spotlightStyles.position} fill="#c0c0c0" />
@@ -76,26 +76,36 @@ export default function HomePage(): React.ReactElement {
           </div>
 
           <p className={homePageStyles.paragraph}>
-            I turn fuzzy ideas into live Products (<em>quickly</em>) — full-stack AI Builder. Currently working as a Founding Engineer at{" "}
-            <a
-              className={homePageStyles.link}
-              href="https://invoicegenerator-frontend-tdng.onrender.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Invoice-AI
-            </a>
-            . I have built multiple products in past 5 years; raised $100K funding for my startup{" "}
+            I turn fuzzy ideas into live Products (<em>quickly</em>) -
+            Full-Stack &amp; AI Automation Engineer. I have built and shipped{" "}
             <a
               className={homePageStyles.link}
               href="https://github.com/haseebjaved4212"
               target="_blank"
               rel="noopener noreferrer"
             >
-              hexagondigitalservices.com
+              122+ projects on GitHub
             </a>
+            , including autonomous multi-agent RAG systems like{" "}
+            <a
+              className={homePageStyles.link}
+              href="https://github.com/haseebjaved4212/CoolBraze-Ai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CoolBraze-Ai
+            </a>{" "}
+            and full-stack platforms like{" "}
+            <a
+              className={homePageStyles.link}
+              href="https://github.com/haseebjaved4212/AniTrack"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AniTrack
+            </a>
+            .
           </p>
-
           <article className={homePageStyles.article.wrapper}>
             <div className={homePageStyles.article.videoContainer}>
               <video
@@ -133,7 +143,8 @@ export default function HomePage(): React.ReactElement {
               </h3>
 
               <p className={homePageStyles.article.description}>
-                A candid review of 2025 into 2026. The video above showcases some of the key projects and moments from my journey.
+                A candid review of 2025 into 2026. The video above showcases
+                some of the key projects and moments from my journey.
               </p>
 
               <div className={homePageStyles.article.linkContainer}>
