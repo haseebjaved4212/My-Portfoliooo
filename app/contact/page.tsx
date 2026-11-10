@@ -122,7 +122,7 @@ export default function ContactPage() {
               <div>
                 <p className={contactPageStyles.contactLabel}>Email</p>
                 <p className={contactPageStyles.contactValue}>
-                  hello@Haseeb.ai
+                  contactimhaseeb@gmail.com
                 </p>
               </div>
             </a>
@@ -261,7 +261,7 @@ export default function ContactPage() {
           <p className={contactPageStyles.alternativeText}>
             Prefer to schedule a call?{" "}
             <a href="#" className={contactPageStyles.alternativeLink}>
-              9005-123-456
+             +923272119600
             </a>
           </p>
         </div>

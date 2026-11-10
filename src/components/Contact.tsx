@@ -155,7 +155,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={social.name}
-                className="p-3.5 bg-white/[0.01] hover:bg-white/[0.04] border border-white/[0.04] hover:border-electric-blue/30 text-zinc-400 hover:text-white rounded-xl transition-all duration-300 hover:scale-105"
+                className="p-3.5 bg-white/1 hover:bg-white/4 border border-white/4 hover:border-electric-blue/30 text-zinc-400 hover:text-white rounded-xl transition-all duration-300 hover:scale-105"
               >
                 {social.icon}
               </a>
