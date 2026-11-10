@@ -17,6 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Haseeb Portfolio",
   description: "Personal Portfolio of Haseeb Javed",
+  icons: {
+    icon: { url: "/favicon.ico.jfif", type: "image/jpeg" },
+    shortcut: { url: "/favicon.ico.jfif", type: "image/jpeg" },
+    apple: { url: "/favicon.ico.jfif", type: "image/jpeg" },
+  },
 };
 
 export default function RootLayout({
