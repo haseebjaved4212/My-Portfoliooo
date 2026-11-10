@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   title: "Haseeb Portfolio",
   description: "Personal Portfolio of Haseeb Javed",
   icons: {
-    icon: { url: "/favicon.ico.jfif", type: "image/jpeg" },
-    shortcut: { url: "/favicon.ico.jfif", type: "image/jpeg" },
-    apple: { url: "/favicon.ico.jfif", type: "image/jpeg" },
+    icon: { url: "/avatar.png", type: "image/png" },
+    shortcut: { url: "/avatar.png", type: "image/png" },
+    apple: { url: "/avatar.png", type: "image/png" },
   },
 };
 

@@ -130,7 +130,7 @@ export default function Sidebar(): React.ReactElement {
           <div className={s.mobileAvatarContainer}>
             <div className={s.mobileAvatar}>
               <Image
-                src="/favicon.ico.jfif"
+                src="/avatar.png"
                 alt="Haseeb Javed avatar"
                 width={40}
                 height={40}
@@ -157,7 +157,7 @@ export default function Sidebar(): React.ReactElement {
         <div className={s.desktopAvatarContainer}>
           <div className={s.desktopAvatar}>
             <Image
-              src="/favicon.ico.jfif"
+              src="/avatar.png"
               alt="Haseeb Javed avatar"
               width={48}
               height={48}
@@ -244,7 +244,7 @@ export default function Sidebar(): React.ReactElement {
               <div className={s.mobileHeaderAvatarContainer}>
                 <div className={s.mobileAvatar}>
                   <Image
-                    src="/favicon.ico.jfif"
+                    src="/avatar.png"
                     alt="Haseeb Javed avatar"
                     width={48}
                     height={48}

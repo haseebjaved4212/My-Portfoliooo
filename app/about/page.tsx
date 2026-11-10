@@ -64,10 +64,13 @@ export default function AboutPage() {
               <section>
                 <h2 className={aboutPageStyles.sectionHeading}>Who I Am</h2>
                 <p className={aboutPageStyles.paragraph}>
-                  Hello! I&apos;m Haseeb, a software engineer passionate
-                  about building tools that simplify people&apos;s lives.
-                  I&apos;ve been coding since 2018, writing about AI, LLMs,
-                  frontend, backend, Rails and databases.
+                  Hello! I&apos;m Haseeb Javed, a Karachi-based Full-Stack & AI
+                  Software Engineer passionate about building production-grade
+                  frontend interfaces, scalable backend APIs, and autonomous AI
+                  agent workflows that solve real user problems end to end.
+                  Across 122+ public repositories on GitHub, I work across
+                  TypeScript, React.js, Next.js, Python (FastAPI, Django),
+                  Node.js, and Kotlin.
                 </p>
               </section>
 
@@ -75,18 +78,12 @@ export default function AboutPage() {
               <section>
                 <h2 className={aboutPageStyles.sectionHeading}>What I Do</h2>
                 <p className={aboutPageStyles.paragraph}>
-                  Currently a Founding Engineer at{" "}
-                  <a
-                    href="https://github.com/haseebjaved4212"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={aboutPageStyles.contentLink}
-                  >
-                    Hexagon Digital Services
-                  </a>
-                  , building workflow automation for insurance brokers. I focus
-                  on building practical, user-facing products - less demo
-                  energy, more things people actually use daily.
+                  I design and ship full-stack web platforms,
+                  Retrieval-Augmented Generation (RAG) systems, Model Context
+                  Protocol (MCP) integrations, and cross-platform mobile apps
+                  for freelance clients and open-source users. My focus is on
+                  practical, user-facing products-less demo energy, more
+                  reliable software people actually use daily.
                 </p>
               </section>
 
@@ -94,11 +91,15 @@ export default function AboutPage() {
               <section>
                 <h2 className={aboutPageStyles.sectionHeading}>My Journey</h2>
                 <p className={aboutPageStyles.paragraph}>
-                  Co-founder of Hexagon Digital Services, Engagebud and
-                  Influencerbit — led product development and design across
-                  multiple startups. Recently shipped AI Invoice Generator (100+
-                  daily users), an WEB AI TOOL, and several micro-builds,
-                  keeping the shipping momentum going.
+                  From engineering CoolBraze-Ai (a 3-agent autonomous customer
+                  support system using Django, Claude API, and RAG) and AniTrack
+                  (a real-time media tracker backed by FastAPI, Django, and
+                  Redis on GitHub), to shipping VerteX (an AI course search
+                  platform with Next.js App Router and Sanity Context MCP),
+                  Raahi (a safety-aware navigation app for a freelance client
+                  using TomTom and MapTiler APIs), and AirPods-Control (an
+                  open-source Android BLE & 5-band DSP audio app in Kotlin &
+                  Jetpack Compose), I keep a relentless shipping momentum
                 </p>
               </section>
 
@@ -106,8 +107,11 @@ export default function AboutPage() {
               <section>
                 <h2 className={aboutPageStyles.sectionHeading}>Vision</h2>
                 <p className={aboutPageStyles.paragraph}>
-                  LLMs and AI will automate the mundane and reshape how we work.
-                  I strive to stay at the forefront of this transformation.
+                  Autonomous AI agents, RAG pipelines, and MCP integrations are
+                  reshaping how modern software is built and experienced. I
+                  strive to stay at the forefront of this shift by combining
+                  solid full-stack engineering fundamentals with grounded,
+                  reliable AI systems.
                 </p>
               </section>
 
@@ -115,9 +119,10 @@ export default function AboutPage() {
               <section>
                 <h2 className={aboutPageStyles.sectionHeading}>Beyond Code</h2>
                 <p className={aboutPageStyles.paragraph}>
-                  Love techno &amp; house music, follow F1 (Max), play chess, and
-                  read regularly. Travelled recently to Bali, and a month in
-                  Thailand/Vietnam in 2025.
+                  When I&apos;m not shipping code or architecting backend systems, I
+                  enjoy exploring emerging AI developer workflows, contributing
+                  to open-source tools, reading about system design, and
+                  building side projects that solve everyday problems.
                 </p>
               </section>
             </div>
