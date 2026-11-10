@@ -62,8 +62,8 @@ export default function Contact() {
     >
       {/* Dynamic glow rings */}
       <div className="absolute inset-x-0 bottom-0 top-[20%] pointer-events-none select-none">
-        <div className="absolute left-[20%] right-[20%] bottom-0 h-[300px] w-auto bg-blue-600/10 rounded-full blur-[120px]" />
-        <div className="absolute left-[35%] right-[35%] bottom-0 h-[200px] w-auto bg-purple-600/10 rounded-full blur-[100px] animate-pulse" style={{ animationDuration: '6s' }} />
+        <div className="absolute left-[20%] right-[20%] bottom-0 h-75 w-auto bg-blue-600/10 rounded-full blur-[120px]" />
+        <div className="absolute left-[35%] right-[35%] bottom-0 h-50 w-auto bg-purple-600/10 rounded-full blur-[100px] animate-pulse" style={{ animationDuration: '6s' }} />
       </div>
 
       <div className="max-w-4xl mx-auto px-6 relative z-10 w-full text-center">
@@ -75,7 +75,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="flex items-center gap-2 text-xs font-mono tracking-widest text-blue-500 uppercase bg-white/[0.02] border border-white/5 px-4 py-1.5 rounded-full"
+            className="flex items-center gap-2 text-xs font-mono tracking-widest text-blue-500 uppercase bg-white/2 border border-white/5 px-4 py-1.5 rounded-full"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
             <span>04 // SECURE COMMUNICATION</span>
@@ -89,7 +89,7 @@ export default function Contact() {
             className="text-4xl md:text-6xl font-display font-extrabold text-white tracking-tight leading-tight"
           >
             Let's Start Something<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-300 to-purple-500">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 via-indigo-300 to-purple-500">
               Extremely Real.
             </span>
           </motion.h2>
