@@ -101,17 +101,17 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="glass-panel rounded-3xl p-8 md:p-12 border-white/[0.04] max-w-2xl mx-auto shadow-2xl relative overflow-hidden group hover:border-electric-blue/20 transition-all duration-500"
+          className="glass-panel rounded-3xl p-8 md:p-12 border-white/4 max-w-2xl mx-auto shadow-2xl relative overflow-hidden group hover:border-electric-blue/20 transition-all duration-500"
         >
           {/* Accent decoration */}
-          <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-electric-blue/40 to-transparent" />
+          <div className="absolute top-0 inset-x-0 h-px bg-linear-to-r from-transparent via-electric-blue/40 to-transparent" />
           
           <p className="text-zinc-400 text-xs md:text-sm font-mono tracking-widest uppercase mb-6">// DIRECT CONTACT INBOX</p>
           
           {/* Glass email container */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-5 bg-black/40 border border-white/5 p-4 md:p-5 rounded-2xl mb-8 group/mail">
             <div className="flex items-center gap-4">
-              <span className="p-3 bg-white/[0.03] border border-white/[0.05] rounded-xl text-electric-blue group-hover/mail:text-white transition-colors duration-300 shrink-0">
+              <span className="p-3 bg-white/3 border border-white/5 rounded-xl text-electric-blue group-hover/mail:text-white transition-colors duration-300 shrink-0">
                 <Mail className="w-5 h-5" />
               </span>
               <span className="text-white font-mono font-medium text-xs md:text-sm select-all break-all">
