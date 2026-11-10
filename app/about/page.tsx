@@ -8,7 +8,6 @@ import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-w
 export default function AboutPage() {
   const interests = [
     "FULL-STACK DEV",
-    "AI ENGINEER",
     "LLMS",
     "Learning",
     "Gaming",
