@@ -101,7 +101,7 @@ export default function ContactPage() {
 
           <div className={contactPageStyles.contactMethodsGrid}>
             <a
-              href="mailto:haseebjaved4212@gmail.com"
+              href="mailto:contactimhaseeb@gmail.com"
               className={contactPageStyles.contactCard}
             >
               <div className={contactPageStyles.contactIconContainer}>

@@ -26,7 +26,7 @@ export default function AboutPage() {
   
   ];
 
-  const email = "haseebjaved4212@gmail.com";
+  const email = "contactimhaseeb@gmail.com";
   const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
 
   return (
