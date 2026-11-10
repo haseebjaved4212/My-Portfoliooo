@@ -10,20 +10,20 @@ export default function AboutPage() {
     "FULL-STACK DEV",
     "AI ENGINEER",
     "LLMS",
-    "TRAVEL",
-    "MUSIC",
-    "F1",
-    "READING",
+    "Learning",
+    "Gaming",
   ];
 
   const techStack = [
-    "React",
-    "LLM",
-    "Rails",
+    "Python",
+    "FastAPI",
     "Next.js",
     "TypeScript",
     "Postgres",
     "Redis",
+    "Django",
+    "Kotlin",
+  
   ];
 
   const email = "haseebjaved4212@gmail.com";
