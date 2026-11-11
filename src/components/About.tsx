@@ -46,8 +46,8 @@ export default function About() {
     >
       {/* Background Grids and Accents */}
       <div className="absolute inset-0 pointer-events-none opacity-30 select-none">
-        <div className="absolute -top-[10%] -left-[10%] w-[35vw] h-[35vw] bg-purple-600/5 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[20%] -right-[15%] w-[40vw] h-[40vw] bg-blue-600/5 rounded-full blur-[140px]" />
+        <div className="absolute top-[-10%] left-[-10%] w-[35vw] h-[35vw] bg-purple-600/5 rounded-full blur-[120px]" />
+        <div className="absolute bottom-[20%] right-[-15%] w-[40vw] h-[40vw] bg-blue-600/5 rounded-full blur-[140px]" />
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -61,7 +61,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="flex items-center gap-2 text-xs font-mono tracking-widest text-blue-500 uppercase"
           >
-            <span className="w-6 h-[1px] bg-blue-500" />
+            <span className="w-6 h-px bg-blue-500" />
             <span>01 // WHO IS HASEEB</span>
           </motion.div>
           <motion.h2 
@@ -72,7 +72,7 @@ export default function About() {
             className="text-3xl md:text-5xl font-display font-extrabold text-white tracking-tight leading-none"
           >
             Crafting the Future of Web<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-electric-blue via-indigo-300 to-electric-purple">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-electric-blue via-indigo-300 to-electric-purple">
               and Agentic Solutions
             </span>
           </motion.h2>
@@ -87,13 +87,13 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="lg:col-span-7 glass-panel rounded-3xl p-8 md:p-10 flex flex-col justify-between border-white/[0.04] shadow-2xl relative overflow-hidden group hover:border-blue-500/20 transition-all duration-500"
+            className="lg:col-span-7 glass-panel rounded-3xl p-8 md:p-10 flex flex-col justify-between border-white/4 shadow-2xl relative overflow-hidden group hover:border-blue-500/20 transition-all duration-500"
           >
             {/* Soft decorative light strip */}
-            <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-electric-blue/20 to-transparent" />
+            <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-electric-blue/20 to-transparent" />
             
             <div>
-              <h3 className="text-lg md:text-xl font-bold text-white mb-6 tracking-wide uppercase font-mono text-zinc-400">
+              <h3 className="text-lg md:text-xl font-bold text-white mb-6 tracking-wide uppercase font-mono">
                 // EXECUTIVE SUMMARY
               </h3>
               <p className="text-zinc-300 text-sm md:text-base leading-relaxed md:leading-loose mb-6">
@@ -138,13 +138,13 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="glass-panel rounded-3xl p-8 flex-1 border-white/[0.04] relative group hover:border-[#7C3AED]/20 transition-all duration-500"
+              className="glass-panel rounded-3xl p-8 flex-1 border-white/4 relative group hover:border-[#7C3AED]/20 transition-all duration-500"
             >
               <h3 className="text-sm font-mono tracking-wider text-zinc-400 mb-6 uppercase">// KEY FOCUS AREAS</h3>
               <div className="flex flex-col gap-6">
                 {highlights.map((h, i) => (
                   <div key={i} className="flex gap-4 items-start">
-                    <div className="p-3 bg-white/[0.03] border border-white/[0.05] rounded-xl shrink-0">
+                    <div className="p-3 bg-white/3 border border-white/5 rounded-xl shrink-0">
                       {h.icon}
                     </div>
                     <div>
@@ -162,7 +162,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="glass-panel rounded-3xl p-8 border-white/[0.04]"
+              className="glass-panel rounded-3xl p-8 border-white/4"
             >
               <h3 className="text-sm font-mono tracking-wider text-zinc-400 mb-5 uppercase">// QUALITY ASSURANCE</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
