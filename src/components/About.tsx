@@ -5,7 +5,7 @@
 
 import React from "react";
 import { motion } from "motion/react";
-import { Cpu, Layers, Globe, CheckCircle, Download } from "lucide-react";
+import { Cpu, Layers, Globe, CheckCircle } from "lucide-react";
 
 interface Highlight {
   icon: React.ReactNode;
@@ -102,14 +102,6 @@ export default function About() {
               <p className="text-zinc-300 text-sm md:text-base leading-relaxed md:leading-loose">
                 Strong foundation in DevOps practices, Computer Networking, Git workflows, and AI Automation. Focused on creating scalable, user-centric applications while continuously exploring emerging technologies in AI and cloud-native development.
               </p>
-              <a
-                href="/resume.pdf"
-                download="resume.pdf"
-                className="mt-8 inline-flex items-center gap-2 self-start rounded-xl border border-white/10 bg-white/10 px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-white/15"
-              >
-                <Download className="h-4 w-4 text-purple-400" />
-                Download Resume
-              </a>
             </div>
 
             {/* Quick Micro-stats section inside narrative */}

@@ -157,6 +157,15 @@ export default function AboutPage() {
                 </svg>
                 E-Mail
               </a>
+
+              <a
+                href="/resume.pdf"
+                download="resume.pdf"
+                className={aboutPageStyles.secondaryButton}
+                aria-label="Download resume as PDF"
+              >
+                Download Resume
+              </a>
             </div>
           </div>
         </div>
