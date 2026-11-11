@@ -12,7 +12,6 @@ const row1Skills = [
   "GSAP",
   "HTML5",
   "Python",
-  "C#",
   "FastAPI",
   "Git",
   "Docker",
@@ -20,7 +19,8 @@ const row1Skills = [
   "n8n",
   "AI/ML Fundamentals",
   "TCP/IP Protocol Suite",
-  "DNS Fundamentals"
+  "RESTful API Design",
+  "WebSocket Communication"
 ];
 
 const row2Skills = [
@@ -28,9 +28,7 @@ const row2Skills = [
   "JavaScript",
   "Three.js",
   "CSS3",
-  "ASP.NET",
   "Django",
-  "Flask",
   "GitHub",
   "Linux",
   "AI Automation",
