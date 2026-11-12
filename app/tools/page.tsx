@@ -45,18 +45,6 @@ const tools: Tool[] = [
     href: "https://code.visualstudio.com",
   },
   {
-    name: "Slack",
-    category: "Communication",
-    icon: "/slack.webp",
-    href: "https://slack.com",
-  },
-  {
-    name: "Medium",
-    category: "Writing",
-    icon: "/medium.webp",
-    href: "https://medium.com",
-  },
-  {
     name: "Android Studio",
     category: "IDE",
     icon: "/android.webp",
@@ -93,11 +81,11 @@ const tools: Tool[] = [
     href: "https://codeium.com/windsurf",
   },
   {
-    name: "Perplexity",
-    category: "Research",
-    icon: "/perplexity.webp",
-    href: "https://perplexity.ai",
-  },
+    name: "Codeium",
+    category: "IDE",
+    icon: "/codeium.webp",
+    href: "https://codeium.com",
+  }
 ];
 
 export default function ToolsPage() {
