@@ -102,7 +102,7 @@ export const projects: Project[] = [
       "State management and asynchronous data fetching with React and TanStack",
     ],
     links: {
-      github: "https://github.com/haseebjaved4212",
+      github: "https://raahi-pied.vercel.app/",
     },
     author: "Haseeb Javed",
     authorAvatar: "/avatar.png",
@@ -228,8 +228,8 @@ export const projects: Project[] = [
   },
   {
     id: "6",
-    title: "LinguaApp",
-    slug: "linguaapp",
+    title: "Language-Lessons",
+    slug: "language-lessons",
     description:
       "Interactive AI-powered mobile language learning application built with React Native, Expo, and TypeScript",
     detailedDescription:
