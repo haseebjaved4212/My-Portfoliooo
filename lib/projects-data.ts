@@ -64,7 +64,7 @@ export const projects: Project[] = [
       "Scalable frontend state and custom SCSS theme architecture",
     ],
     links: {
-      github: "https://github.com/haseebjaved4212",
+      github: "https://github.com/haseebjaved4212/HireCraft",
     },
     author: "Haseeb Javed",
     authorAvatar: "/avatar.png",
