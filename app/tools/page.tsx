@@ -81,10 +81,10 @@ const tools: Tool[] = [
     href: "https://codeium.com/windsurf",
   },
   {
-    name: "Codeium",
+    name: "AntiGravity",
     category: "IDE",
-    icon: "/codeium.webp",
-    href: "https://codeium.com",
+    icon: "/antigravity.webp",
+    href: "https://antigravity.google/",
   }
 ];
 
