@@ -204,3 +204,17 @@
     animation: none;
   }
 }
+
+/* Targets the page and every scrollable container in the project */
+*,
+html,
+body {
+  scrollbar-width: none; /* Firefox, Chrome 121+, Edge 121+, Safari 18.2+ */
+  -ms-overflow-style: none; /* Legacy Edge / IE */
+}
+
+*::-webkit-scrollbar,
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Older Chrome, Safari, and Edge versions */
+}
