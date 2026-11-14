@@ -26,7 +26,7 @@ export default function Loading() {
       </div>
 
       <p className="loading-footer" aria-hidden="true">
-        AI PRODUCT ENGINEER <span>·</span> FULL-STACK DEVELOPER
+        AI  ENGINEER <span>·</span> FULL-STACK DEVELOPER
       </p>
     </div>
   );

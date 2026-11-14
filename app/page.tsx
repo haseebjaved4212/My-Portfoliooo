@@ -40,7 +40,7 @@ export default function HomePage(): React.ReactElement {
           </h1>
 
           <h2 className={homePageStyles.h2}>
-            AI Product{" "}
+            Software {" "}
             <span className={homePageStyles.spanInline}>
               <PointerHighlight>Engineer</PointerHighlight>
             </span>
