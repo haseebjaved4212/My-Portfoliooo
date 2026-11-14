@@ -4,19 +4,24 @@ import type { CSSProperties } from "react";
 
 export const homePageStyles = {
   // Layout and container styles
-  container: "relative z-10 bg-zinc-950b p-6 pt-20 md:pt-16 md:pb-20 md:pr-20 md:pl-6",
+  container:
+    "relative z-10 bg-zinc-950b p-6 pt-20 md:pt-16 md:pb-20 md:pr-20 md:pl-6",
 
   // Background grid pattern
   backgroundGrid: {
-    wrapper: "pointer-events-none -z-20 absolute inset-0 [background-size:40px_40px] select-none",
-    pattern: "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
+    wrapper:
+      "pointer-events-none -z-20 absolute inset-0 [background-size:40px_40px] select-none",
+    pattern:
+      "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]",
   },
 
   // Gradient overlay
-  gradientOverlay: "absolute inset-0 bg-linear-to-b from-black/40 via-transparent to-black/60 pointer-events-none",
+  gradientOverlay:
+    "absolute inset-0 bg-linear-to-b from-black/40 via-transparent to-black/60 pointer-events-none",
 
   // Hero section
-  heroSection: "w-full max-w-[880px] mr-auto",
+  heroSection: "w-full max-w-[880px] mx-auto md:pl-8 lg:pl-12",
+  // heroSection: "w-full max-w-[880px] mr-auto",
 
   // Headings
   h1: "text-[40px] md:whitespace-nowrap sm:text-[48px] md:text-[55px] lg:text-[72px] xl:text-[72px] leading-[0.95] font-extrabold tracking-tight mb-3 text-zinc-100",
@@ -25,12 +30,15 @@ export const homePageStyles = {
 
   // Callout card
   calloutCard: {
-    wrapper: "w-full sm:w-auto sm:max-w-md md:max-w-lg lg:max-w-xl rounded-2xl p-3 bg-white/5 border border-white/20 backdrop-blur-sm transition-all hover:bg-white/10 hover:border-white/30",
-    innerContainer: "flex flex-col sm:flex-row items-center sm:justify-between gap-3 sm:gap-4",
+    wrapper:
+      "w-full sm:w-auto sm:max-w-md md:max-w-lg lg:max-w-xl rounded-2xl p-3 bg-white/5 border border-white/20 backdrop-blur-sm transition-all hover:bg-white/10 hover:border-white/30",
+    innerContainer:
+      "flex flex-col sm:flex-row items-center sm:justify-between gap-3 sm:gap-4",
     textContainer: "flex items-center gap-3 min-w-0",
     icon: "w-5 h-5 text-zinc-300 flex-shrink-0",
     text: "truncate text-sm font-medium text-zinc-200",
-    button: "mt-2 sm:mt-0 px-4 py-1 rounded-full border bg-zinc-100 text-zinc-900 text-sm shrink-0 focus:outline-none focus:ring-2 focus:ring-white/30 focus:ring-offset-2"
+    button:
+      "mt-2 sm:mt-0 px-4 py-1 rounded-full border bg-zinc-100 text-zinc-900 text-sm shrink-0 focus:outline-none focus:ring-2 focus:ring-white/30 focus:ring-offset-2",
   },
 
   // Paragraph
@@ -41,13 +49,14 @@ export const homePageStyles = {
 
   // Article/Video card
   article: {
-    wrapper: "rounded-lg border-zinc-800 bg-zinc-900 shadow-lg overflow-hidden max-w-[720px]",
+    wrapper:
+      "rounded-lg border-zinc-800 bg-zinc-900 shadow-lg overflow-hidden max-w-[720px]",
     videoContainer: "relative w-full h-auto overflow-hidden",
     video: "w-full h-auto max-h-[400px] object-cover",
     videoStyles: {
-      WebkitUserSelect: 'none',
-      userSelect: 'none',
-      pointerEvents: 'none'
+      WebkitUserSelect: "none",
+      userSelect: "none",
+      pointerEvents: "none",
     } satisfies CSSProperties,
     content: "p-4",
     header: "flex items-center gap-2 text-xs text-zinc-400 uppercase mb-2",
@@ -56,12 +65,13 @@ export const homePageStyles = {
     description: "text-sm text-zinc-300",
     linkContainer: "mt-4",
     link: "inline-flex items-center text-sm text-zinc-300 hover:text-zinc-100 transition-colors",
-    linkIcon: "w-4 h-4 ml-1"
+    linkIcon: "w-4 h-4 ml-1",
   },
 
   // Inline span adjustments
   spanInline: "inline-block align-middle",
-  spanWithMargin: "inline-block mt-3 md:mt-0 sm:mt-0 lg:mt-0 xl:mt-0 align-middle z-20"
+  spanWithMargin:
+    "inline-block mt-3 md:mt-0 sm:mt-0 lg:mt-0 xl:mt-0 align-middle z-20",
 };
 
 export const spotlightStyles = {
