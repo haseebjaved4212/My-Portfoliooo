@@ -10,14 +10,14 @@ export const homePageStyles = {
   // Background grid pattern
   backgroundGrid: {
     wrapper:
-      "pointer-events-none -z-20 absolute inset-0 [background-size:40px_40px] select-none",
+      "pointer-events-none -z-20 fixed inset-0 [background-size:40px_40px] select-none",
     pattern:
       "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]",
   },
 
   // Gradient overlay
   gradientOverlay:
-    "absolute inset-0 bg-linear-to-b from-black/40 via-transparent to-black/60 pointer-events-none",
+    "fixed inset-0 bg-linear-to-b from-black/40 via-transparent to-black/60 pointer-events-none",
 
   // Hero section
   heroSection: "w-full max-w-[880px] mx-auto md:pl-8 lg:pl-12",
@@ -349,7 +349,7 @@ export const sidebarStyles = {
   mobileSpacer: "md:hidden h-16",
 
   // Desktop sidebar
-  desktopSidebar: "hidden md:flex flex-col w-[200px] lg:w-[280px] h-screen px-4 py-8 bg-zinc-950 border-r border-zinc-800 fixed left-0 top-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+  desktopSidebar: "hidden md:flex flex-col w-[260px] min-w-[260px] h-screen px-4 py-8 bg-zinc-950 border-r border-zinc-800 z-40 fixed left-0 top-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
   desktopAvatarContainer: "flex items-center gap-3 mb-6",
   desktopAvatar: "w-12 h-12 shrink-0 rounded-full overflow-hidden ring-1 ring-white/10 shadow-sm",
   desktopAvatarImage: "block w-full h-full object-cover object-center scale-[1.06] -translate-y-[3%]",

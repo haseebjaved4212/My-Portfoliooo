@@ -239,7 +239,11 @@ export default function Sidebar(): React.ReactElement {
       <div className={s.mobileSpacer} />
 
       {/* Desktop Sidebar */}
-      <aside className={s.desktopSidebar} aria-label="Desktop sidebar">
+      <aside
+        className={s.desktopSidebar}
+        style={{ width: "260px" }}
+        aria-label="Desktop sidebar"
+      >
         <div className={s.desktopAvatarContainer}>
           <div className={s.desktopAvatar}>
             <Image
