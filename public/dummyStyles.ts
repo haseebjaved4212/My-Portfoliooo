@@ -339,7 +339,7 @@ export const sidebarStyles = {
   mobileSpacer: "md:hidden h-16",
 
   // Desktop sidebar
-  desktopSidebar: "hidden md:flex flex-col w-[200px] lg:w-[240px] h-screen px-4 py-8 bg-zinc-950 border-r border-zinc-800 fixed left-0 top-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
+  desktopSidebar: "hidden md:flex flex-col w-[200px] lg:w-[280px] h-screen px-4 py-8 bg-zinc-950 border-r border-zinc-800 fixed left-0 top-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
   desktopAvatarContainer: "flex items-center gap-3 mb-6",
   desktopAvatar: "w-12 h-12 shrink-0 rounded-full overflow-hidden ring-1 ring-white/10 shadow-sm",
   desktopAvatarImage: "block w-full h-full object-cover object-center scale-[1.06] -translate-y-[3%]",
