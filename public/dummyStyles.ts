@@ -4,7 +4,7 @@ import type { CSSProperties } from "react";
 
 export const homePageStyles = {
   // Layout and container styles
-  container: "relative z-10 bg-zinc-950b p-6 pt-20 md:pt-16 md:pb-20 md:pr-20 md:pl-6",
+  container: "relative z-10 bg-zinc-950b p-6 pt-20 md:pt-16 md:pb-20 md:pr-20 md:pl-0",
 
   // Background grid pattern
   backgroundGrid: {
@@ -71,7 +71,7 @@ export const spotlightStyles = {
 
 export const aboutPageStyles = {
   // Layout and container styles
-  pageContainer: "flex min-h-screen pt-20 w-full items-start justify-center bg-zinc-950 px-6 py-12 md:px-12 md:py-20 lg:px-16",
+  pageContainer: "flex min-h-screen pt-20 w-full items-start justify-center bg-zinc-950 px-6 py-12 md:pl-0 md:pr-12 md:py-20 lg:pl-0 lg:pr-16",
   contentContainer: "w-full max-w-3xl",
 
   // Background container
@@ -108,7 +108,7 @@ export const aboutPageStyles = {
 
 export const contactPageStyles = {
   // Layout and container styles
-  pageContainer: "flex min-h-screen pt-20 w-full items-start justify-center bg-zinc-950 px-6 py-12 md:px-12 md:py-20 lg:px-16",
+  pageContainer: "flex min-h-screen pt-20 w-full items-start justify-center bg-zinc-950 px-6 py-12 md:pl-0 md:pr-12 md:py-20 lg:pl-0 lg:pr-16",
   contentContainer: "w-full max-w-2xl",
 
   // Form container with boxes background
@@ -159,7 +159,7 @@ export const contactPageStyles = {
 
 export const projectStyles = {
   // Page container
-  pageContainer: "flex min-h-screen w-full justify-center pt-20 bg-zinc-950 px-6 py-12 md:px-12 md:py-20 lg:px-16",
+  pageContainer: "flex min-h-screen w-full justify-center pt-20 bg-zinc-950 px-6 py-12 md:pl-0 md:pr-12 md:py-20 lg:pl-0 lg:pr-16",
   innerContainer: "w-full max-w-full",
 
   // Header
@@ -215,7 +215,7 @@ export const projectStyles = {
 
 export const toolsPageStyles = {
   // Layout and container styles
-  pageContainer: "flex min-h-screen w-full justify-center bg-zinc-950 pt-20 xl:pt-16 px-6 py-12 md:px-12 md:py-20 lg:px-16",
+  pageContainer: "flex min-h-screen w-full justify-center bg-zinc-950 pt-20 xl:pt-16 px-6 py-12 md:pl-0 md:pr-12 md:py-20 lg:pl-0 lg:pr-16",
   contentContainer: "w-full max-w-full",
 
   // Header
@@ -239,7 +239,7 @@ export const toolsPageStyles = {
 
 export const projectDetailStyles = {
   // Page container
-  pageContainer: "min-h-screen relative bg-zinc-950 pt-20 px-4 sm:px-6 lg:px-8 pb-20 antialiased",
+  pageContainer: "min-h-screen relative bg-zinc-950 pt-20 px-4 sm:px-6 lg:pl-0 lg:pr-8 pb-20 antialiased",
   innerContainer: "max-w-6xl mx-auto relative z-10",
 
   // Back button
