@@ -141,7 +141,7 @@ export default function Sidebar(): React.ReactElement {
             <div>
               <div className={s.mobileName}>Haseeb Javed</div>
               <TypingAnimation
-                words={["Full-Stack Dev", "Problem Solver", "AI Automation"]}
+                words={["Full-Stack Dev","App Developer", "Agentic AI", "GenAI Engineer", "AI Automation"]}
                 className={s.mobileTyping}
                 loop
               />
@@ -168,7 +168,7 @@ export default function Sidebar(): React.ReactElement {
           <div>
             <div className={s.desktopName}>Haseeb Javed</div>
             <TypingAnimation
-              words={["Full-Stack Dev", "Problem Solver", "AI Automation"]}
+              words={["Full-Stack Dev","App Developer", "Agentic AI", "GenAI Eng", "AI Automation"]}
               className={s.desktopTyping}
               loop
             />
@@ -255,7 +255,7 @@ export default function Sidebar(): React.ReactElement {
                 <div>
                   <div className={s.mobileName}>Haseeb Javed</div>
                   <TypingAnimation
-                    words={["Full-Stack Dev", "Problem Solver", "AI Automation"]}
+                    words={["Full-Stack Dev", "App Developer", "GenAI Eng", "Agentic AI",  "AI Automation"]}
                     className={s.mobileTyping}
                     loop
                   />
