@@ -83,7 +83,7 @@ const tools: Tool[] = [
   {
     name: "AntiGravity",
     category: "IDE",
-    icon: "/antigravity.webp",
+    icon: "/antiGravity.webp",
     href: "https://antigravity.google/",
   }
 ];

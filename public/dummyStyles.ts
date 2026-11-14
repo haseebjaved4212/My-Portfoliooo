@@ -4,7 +4,7 @@ import type { CSSProperties } from "react";
 
 export const homePageStyles = {
   // Layout and container styles
-  container: "relative z-10 bg-zinc-950b p-6 pt-20 md:pt-16 md:p-20",
+  container: "relative z-10 bg-zinc-950b p-6 pt-20 md:pt-16 md:pb-20 md:pr-20 md:pl-6",
 
   // Background grid pattern
   backgroundGrid: {
@@ -16,7 +16,7 @@ export const homePageStyles = {
   gradientOverlay: "absolute inset-0 bg-linear-to-b from-black/40 via-transparent to-black/60 pointer-events-none",
 
   // Hero section
-  heroSection: "w-full max-w-[880px] mx-auto",
+  heroSection: "w-full max-w-[880px] mr-auto",
 
   // Headings
   h1: "text-[40px] md:whitespace-nowrap sm:text-[48px] md:text-[55px] lg:text-[72px] xl:text-[72px] leading-[0.95] font-extrabold tracking-tight mb-3 text-zinc-100",
@@ -330,8 +330,8 @@ export const sidebarStyles = {
   mobileTopNav: "md:hidden fixed top-0 left-0 right-0 z-80 bg-transparent backdrop-blur-sm px-4 py-3",
   mobileTopNavInner: "flex items-center justify-between",
   mobileAvatarContainer: "flex items-center gap-3",
-  mobileAvatar: "w-10 h-10 rounded-full overflow-hidden ring-1 ring-white/10 shadow-sm",
-  mobileAvatarImage: "object-cover",
+  mobileAvatar: "w-10 h-10 shrink-0 rounded-full overflow-hidden ring-1 ring-white/10 shadow-sm",
+  mobileAvatarImage: "block w-full h-full object-cover object-center scale-[1.06] -translate-y-[3%]",
   mobileName: "font-semibold text-zinc-100 text-base",
   mobileTyping: "text-xs text-zinc-400 truncate max-w-[120px]",
 
@@ -341,8 +341,8 @@ export const sidebarStyles = {
   // Desktop sidebar
   desktopSidebar: "hidden md:flex flex-col w-[260px] h-screen px-6 py-8 bg-zinc-950 border-r border-zinc-800 fixed left-0 top-0 overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden",
   desktopAvatarContainer: "flex items-center gap-3 mb-6",
-  desktopAvatar: "w-12 h-12 rounded-full overflow-hidden ring-1 ring-white/10 shadow-sm",
-  desktopAvatarImage: "object-cover",
+  desktopAvatar: "w-12 h-12 shrink-0 rounded-full overflow-hidden ring-1 ring-white/10 shadow-sm",
+  desktopAvatarImage: "block w-full h-full object-cover object-center scale-[1.06] -translate-y-[3%]",
   desktopName: "font-semibold text-zinc-100",
   desktopTyping: "text-xs text-zinc-400",
 

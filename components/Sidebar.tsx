@@ -161,7 +161,8 @@ export default function Sidebar(): React.ReactElement {
               alt="Haseeb Javed avatar"
               width={48}
               height={48}
-              className={s.desktopAvatarImage}
+              className={s.desktopAvatarImage} 
+
               priority
             />
           </div>
